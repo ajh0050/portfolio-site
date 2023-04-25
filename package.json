@@ -38,6 +38,7 @@
     "@tailwindcss/typography": "^0.5.9",
     "@types/react-pdf": "^6.2.0",
     "autoprefixer": "^10.4.13",
+    "mini-css-extract-plugin": "^2.7.5",
     "postcss": "^8.4.21",
     "postcss-nesting": "^11.2.2",
     "rome": "^11.0.0",
