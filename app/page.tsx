@@ -6,7 +6,7 @@ import AsciiArt from "./components/AsciiArt";
 const navigation = [
 	{ name: "Projects", href: "/projects" },
 	{ name: "Contact", href: "/contact" },
-	{ name: "Resume", href: "/resume" },
+	{ name: "Resume", href: "https://drive.google.com/uc?id=1yNS4kMzA_4n1-EhRksbgRJsoQQWmEFSc" },
 ];
 
 export default function Home() {
@@ -21,6 +21,7 @@ export default function Home() {
 							key={item.href}
 							href={item.href}
 							className="text-sm duration-500 text-zinc-500 hover:text-zinc-300"
+							target= {item.name === "Resume" ? '_blank' : undefined}
 						>
 							{item.name}
 						</Link>

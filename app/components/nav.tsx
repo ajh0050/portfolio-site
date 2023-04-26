@@ -36,7 +36,7 @@ export const Navigation: React.FC = () => {
 							Projects
 						</Link>
 						<Link
-							href="/resume"
+							href="https://drive.google.com/uc?id=1yNS4kMzA_4n1-EhRksbgRJsoQQWmEFSc"
 							className="duration-200 text-zinc-400 hover:text-zinc-100">
 							Resume
 						</Link>
