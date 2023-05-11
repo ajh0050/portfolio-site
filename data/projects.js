@@ -80,6 +80,14 @@ const projects = [
         githubUrl: "https://github.com/ajh0050/New-York-Times",
         deployedUrl: "https://new-york-times-eight.vercel.app/",
     },
+    {
+        id: 10,
+        title: "Clean Code AI",
+        date: "May 11, 2023",
+        technologies: "OpenAI, Next.js 13, Tailwind, Vercel, Context api",
+        description: "In this partner weekend project, my brother and I built an app that allows users to get their code reviewed or refactored by an AI.",
+        deployedUrl: "https://cleancode-ai.vercel.app/",
+    },
 ]
 
 const sortedProjects = projects.sort((a, b) => {
