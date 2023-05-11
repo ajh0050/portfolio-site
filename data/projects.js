@@ -86,6 +86,7 @@ const projects = [
         date: "May 11, 2023",
         technologies: "OpenAI, Next.js 13, Tailwind, Vercel, Context api",
         description: "In this partner weekend project, my brother and I built an app that allows users to get their code reviewed or refactored by an AI.",
+        githubUrl: "",
         deployedUrl: "https://cleancode-ai.vercel.app/",
     },
 ]
