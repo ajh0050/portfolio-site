@@ -6,7 +6,7 @@ import AsciiArt from "./components/AsciiArt";
 const navigation = [
 	{ name: "Projects", href: "/projects" },
 	{ name: "Contact", href: "/contact" },
-	{ name: "Resume", href: "https://drive.google.com/uc?id=1yNS4kMzA_4n1-EhRksbgRJsoQQWmEFSc" },
+	{ name: "Resume", href: "https://drive.google.com/uc?id=1627yeS0Y9DqPypkgAWQClB6W00r6FM1F" },
 ];
 
 export default function Home() {
