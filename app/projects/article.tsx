@@ -30,14 +30,17 @@ export const Article: React.FC<Props> = ({ project }) => {
         Technologies: {project.technologies}
       </p>
       <div className="mt-4">
-        <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="text-zinc-200 underline">GitHub Repo</a>
+        {project.githubUrl && (
+          <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="text-zinc-200 underline">GitHub Repo</a>
+        )}
+        {project.githubUrl && project.deployedUrl && (
+          <span className='text-zinc-200'>{' | '}</span>
+        )}
         {project.deployedUrl && (
-          <>
-            <span className='text-zinc-200'>{' | '}</span>
-            <a href={project.deployedUrl} target="_blank" rel="noopener noreferrer" className="text-zinc-200 underline">Live Demo</a>
-          </>
+          <a href={project.deployedUrl} target="_blank" rel="noopener noreferrer" className="text-zinc-200 underline">Live Demo</a>
         )}
       </div>
     </article>
   );
 };
+
